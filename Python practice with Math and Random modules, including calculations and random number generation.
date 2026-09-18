@@ -1,0 +1,42 @@
+import math
+import random
+
+# Square root
+number = 36
+result = math.sqrt(number)
+print("Square root:", result)
+
+# Power
+number = 7
+power = 9
+result = math.pow(number, power)
+print("Power:", result)
+
+# Floor
+number = 3.14
+result = math.floor(number)
+print("Floor:", result)
+
+# Ceiling
+number = 9.5
+result = math.ceil(number)
+print("Ceiling:", result)
+
+# Factorial
+number = 36
+result = math.factorial(number)
+print("Factorial:", result)
+
+# Random number
+secret_number = random.randint(1, 10)
+print("Random number:", secret_number)
+
+# Random choice
+fruits = ["apple", "banana", "mango", "orange"]
+result = random.choice(fruits)
+print("Random fruit:", result)
+
+# User guess
+guess = int(input("Guess the number: "))
+
+print("Your guess:", guess)
